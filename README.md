@@ -15,9 +15,16 @@ Upload static assets to the OSS server.
 
 5. 查看上传文件等基本使用教程 api 开发：
     - 开发运行中发现没有权限，发现需要给 ram 账户设置 oss 权限
-    ![ram账户设置oss权限](ossAccess.png)
+    - ram账户设置oss权限
+    <img src="ossAccess.png" width="500">
 
 6. deploy 部署
+
+7. 成功上传到 oss 服务器
+    - 图中的 example.png 就是通过本地开发上传上去的
+    <img src="ossAccess.png" width="500">
+
+
 
 ## OSS 适用场景
 	•	网站静态资源存储（CSS/JS/HTML/图片/视频）
