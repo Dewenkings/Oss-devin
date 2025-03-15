@@ -22,7 +22,7 @@ Upload static assets to the OSS server.
 
 7. 成功上传到 oss 服务器
     - 图中的 example.png 就是通过本地开发上传上去的
-    <img src="ossAccess.png" width="500">
+    <img src="exampleOss.png" width="500">
 
 
 
