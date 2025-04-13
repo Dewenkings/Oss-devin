@@ -2,10 +2,14 @@ const OSS = require("ali-oss");
 const fs = require("fs");
 const path = require("path");
 
+require('dotenv').config();
+
+const accessKeyId = process.env.ACCESS_KEY_ID;
+const accessKeySecret = process.env.ACCESS_KEY_SECRET
 const client = new OSS({
   region: "oss-cn-shenzhen",
-  accessKeyId: "LTAI5tM1CJRgpz6GSRYotwM9",
-  accessKeySecret: "xwPDaK2JjdUB2eFE8MlZo5f9D3nOmS",
+  accessKeyId: accessKeyId,
+  accessKeySecret: accessKeySecret,
   bucket: "devin-study",
 });
 
