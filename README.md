@@ -1,4 +1,4 @@
-# Oss-devin
+# oss-uploader-demo
 Upload static assets to the OSS server.
 
 ## 实现步骤
